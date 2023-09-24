@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#searchbar {
+   margin-left: 15%;
+   padding: 15px;
+   border-radius: 10px;
+}
+
+input[type=text]{
+    width: 30%;
+    transition: 0.15s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+}
+
+ol li {
+    font-size: 1.5em;
+    margin-left: 90px;
+}
+
+.animals {
+    display: list-item;
+}
+
